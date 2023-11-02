@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .products {
+        display: flex;
+        &-container {
+            padding-top: 70px;
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            gap: 52px;
+            flex-wrap: wrap;
+            &_card {
+                width: 222px;
+                height: 248px;
+                background-color: white;
+                h2 {
+                    font-family: Archivo;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    padding-top: 15px;
+                    padding-bottom: 10px;
+                }
+                p {
+                    font-family: Archivo;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    padding-bottom: 25px;
+                    color: #4d504b;
+                    line-height: 24px;
+                }
+                span {
+                    font-family: Archivo;
+                    font-size: 14px;
+                    font-weight: 700;
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+                button {
+                    padding: 10px 25px;
+                    font-weight: 700;
+                    font-family: "Archivo", sans-serif;
+                    border-radius: 8px;
+                    border: none;
+                    color: white;
+                }
+                .btn-apply {
+                    background: var(--yashil-main, #00ad33);
+                }
+            }
+        }
+    }
+    .corousel {
+        background-color: black !important;
+        color: white;
+        p {
+            color: white !important;
+            opacity: 0.8;
+        }
+    }
+}
+@media only screen and (max-width: 900px) {
+    .products-container {
+        gap: 30px;
+        &_card {
+            width: 200px;
+        }
+    }
+}

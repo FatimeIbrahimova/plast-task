@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .received-products {
+        margin-bottom: 30px;
+        width: 100%;
+        &-container {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 60px;
+            padding-top: 40px;
+            &_card {
+                width: 392px;
+                height: 452px;
+                border-radius: 8px;
+                border: 1px solid #e8e8e8;
+                &-inner {
+                    width: 90%;
+                    margin: 0 auto;
+                    padding-top: 18px;
+                    position: relative;
+
+                    h2 {
+                        padding-top: 20px;
+                    }
+                    p {
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        padding-top: 20px;
+                    }
+                    .price {
+                        background-color: black;
+                        width: 100px;
+                        border-radius: 8px;
+                        padding: 5px 10px;
+                        position: absolute;
+                        top: 10px;
+                        left: 5px;
+                        span {
+                            color: white;
+                        }
+                    }
+                    &_btns {
+                        display: flex;
+                        gap: 50px;
+                        margin-top: 40px;
+                        button {
+                            padding: 15px 45px;
+                            font-weight: 700;
+                            font-family: "Archivo", sans-serif;
+                            border-radius: 8px;
+                            border: none;
+                        }
+                        .btn-apply {
+                            background: var(--yashil-main, #00ad33);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .received-products-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        &_card {
+            margin-top: 10px;
+        }
+    }
+}
+@media only screen and (max-width: 1480px) and (min-width: 768px) {
+    .received-products-container {
+        justify-content: center;
+    }
+}

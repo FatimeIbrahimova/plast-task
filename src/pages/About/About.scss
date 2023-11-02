@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .about-page {
+        &_info {
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+            padding-bottom: 150px;
+            &-section_container {
+                width: 85%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 50px;
+                &_img {
+                    border-radius: 8px;
+                    position: relative;
+                    .authorr {
+                        width: 330px;
+                        height: 169px;
+                        background-color: #00ad33;
+                        border-radius: 16px;
+                        position: absolute;
+                        top: 70%;
+                        right: 50%;
+                        &-svg {
+                            position: absolute;
+                            bottom: 100px;
+                            right: 182px;
+                        }
+                        p {
+                            font-family: Archivo;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 21px;
+                            color: white;
+                            padding-top: 20px;
+                            padding-left: 20px;
+                            width: 300px;
+                        }
+                        h1 {
+                            font-family: Archivo;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            color: white;
+                            padding-top: 20px;
+                            padding-left: 20px;
+                        }
+                    }
+                }
+                &_context {
+                    width: 550px;
+                    h3 {
+                        font-family: Archivo;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        display: inline;
+                    }
+                    span {
+                        color: var(--yashil-main, #00ad33);
+                        font-family: Archivo;
+                        font-size: 32px;
+                        font-weight: 700;
+                    }
+                    p {
+                        color: #4d504b;
+                        font-family: Archivo;
+                        font-size: 14px;
+                        font-weight: 400;
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .about-page_info-section_container{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        &_img{
+            img {
+                width: 250px !important;
+            }
+            .authorr {
+                width: 170px !important;
+                height: 100px !important;
+                position: absolute;
+                top: 65%;
+                left: 40%;
+                p {
+                    font-size: 9px !important;
+                    line-height: 8px !important;
+                    width: 180px !important;
+                }
+            }
+        }
+        &_context{
+            p{
+                font-size: 10px !important;
+                width: 250px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .about-page_info-section_container {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        &_img {
+            img {
+                width: 320px;
+                margin-left: 25px;
+            }
+            .authorr {
+                width: 200px;
+                height: 130px;
+                position: absolute;
+                top: 65%;
+                left: 0;
+                &-svg {
+                    bottom: 68px;
+                }
+                p {
+                    font-size: 10px;
+                    line-height: 12px;
+                    width: 200px;
+                }
+            }
+        }
+        &_context {
+            width: 300px;
+            h3 {
+                font-family: Archivo;
+                font-size: 32px;
+            }
+            span {
+                font-size: 32px;
+            }
+            p {
+                font-size: 14px;
+                padding-top: 20px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+    .about-page_info-section_container {
+        display: flex;
+        gap: 30px;
+        &_img {
+            img {
+                width: 280px;
+                margin-left: 30px;
+            }
+            .authorr {
+                width: 210px;
+                height: 130px;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                &-svg {
+                    bottom: 62px;
+                    position: absolute;
+                    left: 125px;
+                }
+                p {
+                    font-size: 9px;
+                    line-height: 12px;
+                    width: 200px;
+                }
+                .p {
+                    display: none;
+                }
+            }
+        }
+        &_context {
+            width: 700px;
+            h3 {
+                font-family: Archivo;
+                font-size: 15px;
+            }
+            span {
+                font-size: 32px;
+            }
+            p {
+                font-size: 10px;
+                padding-top: 20px;
+            }
+            .p {
+                display: none;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .about-page_info-section_container {
+        display: flex;
+        gap: 80px;
+        &_img {
+            img {
+                width: 350px;
+            }
+            .authorr {
+                width: 210px;
+                height: 130px;
+                position: absolute;
+                top: 65%;
+                &-svg {
+                    bottom: 75px;
+                    position: absolute;
+                    left: 190px;
+                }
+                p {
+                    font-size: 9px;
+                    line-height: 12px;
+                    width: 200px;
+                    color: blue;
+                }
+            }
+        }
+        &_context {
+            width: 750px;
+            h3 {
+                font-size: 18px;
+            }
+            span {
+                font-size: 32px;
+            }
+            p {
+                font-size: 9px;
+                padding-top: 10px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1350px) and (min-width: 992px) {
+    .about-page_info-section_container {
+        gap: 70px;
+        &_img {
+            img {
+                width: 450px;
+            }
+            .authorr {
+                width: 300px;
+                height: 169px;
+                position: absolute;
+                top: 65%;
+                &-svg {
+                    bottom: 75px;
+                    position: absolute;
+                    left: 190px;
+                }
+            }
+        }
+        &_context {
+            p {
+                font-size: 12px;
+                color: #00ad33;
+            }
+        }
+    }
+}

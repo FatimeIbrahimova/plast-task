@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .info-section {
+        &_title {
+            background-color: black;
+            width: 100%;
+        }
+        h2 {
+            font-size: 44px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 64px;
+            padding-bottom: 64px;
+        }
+        span {
+            color: #00ad33;
+            display: inline-block;
+            padding-left: 10px;
+        }
+        .triangle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+@media only screen and (max-width: 576px) {
+    .info-section_title {
+        h2 {
+            font-size: 20px;
+        }
+    }
+}
+
