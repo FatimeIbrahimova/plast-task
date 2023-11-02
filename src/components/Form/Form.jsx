@@ -10,18 +10,18 @@ const Form = () => {
 	const [arr, setArr] = useState([]);
 	const [data, setData] = useState({
 		fullName: "",
-		mobilePhone: null,
-		message: null,
+		mobilePhone: "",
+		message: "",
 	});
 	const handleClickUpName = () => {
 		setUpName(true);
-		if (data.mobilePhone == null) {
+		if (data.mobilePhone == "") {
 			setUpNumber(false);
 		} else {
 			setUpNumber(true);
 		}
 
-		if (data.message == null) {
+		if (data.message == "") {
 			setUpText(false);
 		} else {
 			setUpText(true);
@@ -35,7 +35,7 @@ const Form = () => {
 			setUpName(true);
 		}
 
-		if (data.message == null) {
+		if (data.message == "") {
 			setUpText(false);
 		} else {
 			setUpText(true);
@@ -49,7 +49,7 @@ const Form = () => {
 			setUpName(true);
 		}
 
-		if (data.mobilePhone == null) {
+		if (data.mobilePhone == "") {
 			setUpNumber(false);
 		} else {
 			setUpNumber(true);

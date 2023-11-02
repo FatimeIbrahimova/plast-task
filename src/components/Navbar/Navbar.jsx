@@ -115,16 +115,16 @@ const Navbar = () => {
 											cy="11.7666"
 											r="8.98856"
 											stroke="white"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-linejoin="round"
+											strokeWidth="2"
+											strokeLinecap="round"
+											strokeLinejoin="round"
 										/>
 										<path
 											d="M18.0183 18.4852L21.5423 22.0001"
 											stroke="white"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-linejoin="round"
+											strokeWidth="2"
+											strokeLinecap="round"
+											strokeLinejoin="round"
 										/>
 									</svg>
 								</li>
@@ -195,16 +195,16 @@ const Navbar = () => {
 											cy="11.7666"
 											r="8.98856"
 											stroke="white"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-linejoin="round"
+											strokeWidth="2"
+											strokeLinecap="round"
+											strokeLinejoin="round"
 										/>
 										<path
 											d="M18.0183 18.4852L21.5423 22.0001"
 											stroke="white"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-linejoin="round"
+											strokeWidth="2"
+											strokeLinecap="round"
+											strokeLinejoin="round"
 										/>
 									</svg>
 								</li>
