@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 const Navbar = () => {
 	const [langsContainer, setLangsContainer] = useState(false);
 	const [lang, setLang] = useState("");
-	const [allLangs, setAllLangs] = useState([
+	const [allLangs] = useState([
 		{ name: "Az", code: "az" },
 		{ name: "En", code: "en" },
 		{ name: "Ru", code: "ru" },

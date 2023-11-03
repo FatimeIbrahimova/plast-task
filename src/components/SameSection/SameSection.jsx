@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { ReactComponent as SvgRight } from "../../imgs/Frame (1).svg";
 import "./SameSection.scss";
 import { NavLink, useLocation } from "react-router-dom";
@@ -11,7 +11,7 @@ const SameSection = ({ title1, title2 }) => {
 	const isSearchPage = location.pathname === "/search";
 	//search
 	const [value, setValue] = useState("");
-	const [filterSearch, setFilterSearch] = useState("hidden");
+	const [ setFilterSearch] = useState("hidden");
 	const handleChange = (e) => {
 		setValue(e.target.value);
 		console.log(value);

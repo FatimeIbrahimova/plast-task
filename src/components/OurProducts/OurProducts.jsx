@@ -6,7 +6,7 @@ import { MainContext } from "../../context/ContextProvider";
 import Modal from "../Modal/Modal";
 
 const OurProducts = ({ data, itemCorousel }) => {
-	const { isModalOpen, openModal, closeModal,selectedProductId} = useContext(MainContext);
+	const { isModalOpen, openModal, closeModal} = useContext(MainContext);
 	const location = useLocation();
 	const isSearchPage = location.pathname === "/search";
 	const isCorouselPage = location.pathname === "/";

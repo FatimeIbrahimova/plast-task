@@ -7,7 +7,7 @@ const Form = () => {
 	const [upName, setUpName] = useState(false);
 	const [upNumber, setUpNumber] = useState(false);
 	const [upText, setUpText] = useState(false);
-	const [arr, setArr] = useState([]);
+	const [arr] = useState([]);
 	const [data, setData] = useState({
 		fullName: "",
 		mobilePhone: "",
@@ -15,13 +15,13 @@ const Form = () => {
 	});
 	const handleClickUpName = () => {
 		setUpName(true);
-		if (data.mobilePhone == "") {
+		if (data.mobilePhone === "") {
 			setUpNumber(false);
 		} else {
 			setUpNumber(true);
 		}
 
-		if (data.message == "") {
+		if (data.message === "") {
 			setUpText(false);
 		} else {
 			setUpText(true);
@@ -29,13 +29,13 @@ const Form = () => {
 	};
 	const handleClickUpNumber = () => {
 		setUpNumber(true);
-		if (data.fullName == "") {
+		if (data.fullName === "") {
 			setUpName(false);
 		} else {
 			setUpName(true);
 		}
 
-		if (data.message == "") {
+		if (data.message === "") {
 			setUpText(false);
 		} else {
 			setUpText(true);
@@ -43,13 +43,13 @@ const Form = () => {
 	};
 	const handleClickUpText = () => {
 		setUpText(true);
-		if (data.fullName == "") {
+		if (data.fullName === "") {
 			setUpName(false);
 		} else {
 			setUpName(true);
 		}
 
-		if (data.mobilePhone == "") {
+		if (data.mobilePhone === "") {
 			setUpNumber(false);
 		} else {
 			setUpNumber(true);

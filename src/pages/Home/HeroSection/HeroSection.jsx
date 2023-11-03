@@ -7,7 +7,7 @@ import { MainContext } from "../../../context/ContextProvider";
 
 const HeroSection = () => {
 	const { t } = useTranslation();
-	const { isModalOpen, openModal, closeModal, setIsModalOpen } =
+	const { isModalOpen, closeModal} =
 		useContext(MainContext);
 
 	return (

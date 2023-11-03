@@ -12,7 +12,7 @@ const Modal = () => {
 		weight: null,
 		mobilePhone: null,
 	});
-	const [arr, setArr] = useState([]);
+	const [arr] = useState([]);
 
 	const handleChange = (e) => {
 		setData({ ...data, [e.target.name]: e.target.value });

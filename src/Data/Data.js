@@ -1,6 +1,5 @@
 import { ReactComponent as Card1 } from "../imgs/Rectangle 418.svg";
 import { ReactComponent as Ellipse1 } from "../imgs/Ellipse 6.svg";
-import Ellipse2 from "../imgs/Ellipse 6 (2).svg";
 
 export const receivedProducts = [
 	{
