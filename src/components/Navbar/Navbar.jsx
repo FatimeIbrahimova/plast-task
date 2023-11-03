@@ -172,13 +172,13 @@ const Navbar = () => {
 							<NavLink to="/products" onClick={linkClicked}>
 								<li>Məhsullarımız</li>
 							</NavLink>
-							<NavLink to="/devices" onClick={linkClicked}>
+							<NavLink to="/devices" onClick={linkClicked} >
 								<li>Cİhazlar</li>
 							</NavLink>
-							<NavLink to="/about" onClick={linkClicked}>
+							<NavLink to="/about" onClick={linkClicked} >
 								<li>Haqqımızda</li>
 							</NavLink>
-							<NavLink to="/contact" onClick={linkClicked}>
+							<NavLink to="/contact" onClick={linkClicked} >
 								<li>Əlaqə</li>
 							</NavLink>
 							<NavLink to="/search" onClick={linkClicked}>

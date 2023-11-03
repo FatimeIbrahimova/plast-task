@@ -38,17 +38,17 @@ const Footer = () => {
 					<span>info@plast.az</span>
 					<ul>
 						<li>
-							<a href="#">
+							<a href="https://www.facebook.com/">
 								<i className="fa-brands fa-square-facebook"></i>
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="https://www.instagram.com/">
 								<i className="fa-brands fa-instagram"></i>
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="https://www.youtube.com/">
 								<i className="fa-brands fa-youtube"></i>
 							</a>
 						</li>

@@ -43,7 +43,7 @@ const SameSection = ({ title1, title2 }) => {
 							</>
 						) : (
 							<>
-								<NavLink to="/">Ana səhifə</NavLink>
+								<NavLink to="/" href="#">Ana səhifə</NavLink>
 								<SvgRight />
 								<h2>{title2}</h2>
 							</>
